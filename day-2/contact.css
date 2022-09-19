@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(214, 213, 213);
+}
+
+
+h1 {
+    margin-left: 540px;
+    margin-top: 45px;
+}
+
+form {
+    width: 350px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input, select, textarea {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #dbdbdb;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 250px;
+}
+
+button:hover{
+    background-color: orangered;
+}
