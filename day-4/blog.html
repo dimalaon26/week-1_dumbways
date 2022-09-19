@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+
+
+    <section class="home">
+        <h1>ADD MY PROJECT</h1>
+
+        <div class="blog-form">
+            <form onsubmit="addBlog(event)">
+                <div class="name-form">
+                    <label class="project-name" for="input-projectname">Project Name</label>
+                    <input class="input-form" type="text" id="input-projectname">
+                </div>
+
+                <div class="label-date">
+                    <label class="start-date" for="input-startdate">Start date</label>
+                    <label class="end-date" for="input-end">End date</label>
+                </div>
+
+                <div class="form-date">
+                    <input class="start-form" type="text" id="input-startdate">
+                    <input class="end-form" type="text" id="input-end">
+                </div>
+
+                <div class="description">
+                    <label class="desc" for="input-description">Description</label>
+                    <textarea cols="40" rows="20" value="desc" class="form-desc" type="text"
+                        id="input-description"></textarea>
+                </div>
+
+                <div class="checkbox">
+
+                    <label class="checkbox-label" for="-input-checkbox">Technologies</label>
+
+                    <div class="box-left">
+                        <input type="checkbox" id="input-checkbox">Node JS</input>
+                        <input type="checkbox" id="input-checkbox">React JS</input>
+                    </div>
+
+                    <div class="box-right">
+                        <input type="checkbox" id="input-checkbox">Next JS</input>
+                        <input type="checkbox" id="input-checkbox">Type Script</input>
+                    </div>
+
+                </div>
+
+                <div class="upload">
+                    <h4 for="input-image">Upload images</h4>
+                    <input class="upload-photos" type="file" id="input-image"></input>
+                </div>
+
+                <div>
+                    <a href="/day-5/blog-detail.html">
+                    <button>Submit</button>
+                    </a>
+                </div>
+            </form>
+    </section>
+
+    <h1 class="article-tittle">MY PROJECT</h1>
+
+    <section class="card-container">
+
+
+        <div class="content">
+
+            <a href="/day-5/blog-detail.html">
+                <div class="contents" id="contents">
+                    <div class="card-1">
+                        <img class="card" src="/day-5/assets/logo.png" alt="">
+                        <h4 class="content-tittle">NextJS</h4>
+                        <p class="duration">Start date: End date:</p>
+
+                        <p class="content-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                            nihil
+                            ratione dolores reiciendis
+                            dolorum labore doloribus est sapiente nobis, amet cumque, enim, consectetur dicta dolor
+                            ipsam?
+                            Ducimus, eaque officia. Soluta!</p>
+
+                        <img class="icon" src="/day-4/assets/js.png">
+
+                        <div class="edit-article">
+                            <p class="btn-content">Edit</p>
+                            <p class="btn-content">Delete</p>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+    </section>
+
+</body>
+<script src="blog.js"></script>
+
+</html>
